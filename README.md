@@ -1,6 +1,5 @@
 # Draft King (draft-king)
-
-A dead simple draft manager
+A dead simple draft manager front-end
 
 ## Install the dependencies
 ```bash
@@ -27,5 +26,15 @@ npm run lint-fix
 quasar build
 ```
 
+### Upgrade Quasar package
+```bash
+quasar upgrade
+```
+
+### Upgrade npm package
+```bash
+npx npm-check-updates -u
+```
+
 ### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js).
